@@ -14,13 +14,14 @@ body {
     height: 70px;
     padding-top: 10px;
     background-color: #094270;
-    transition: all 2s;
+    
     font-size: 30px;
 }
 .all.newheader{
     background-color: #5887ad;
 }
 .nav{
+    
     display: flex;
 }
 h1{
@@ -32,7 +33,7 @@ h1{
 
 .menu{
     display: flex;
-    gap:70px;
+    gap:55px;
     padding-top: 5px;
 }
 .menu-link{
@@ -45,9 +46,10 @@ h1{
     color: rgb(29, 207, 219);
 }
 .social{
-    right: 30px;
+    
+    right: 15px;
     position: absolute;
-    gap: 50px;
+    gap: 20px;
     display: flex;
 }
 .fa{
@@ -114,7 +116,7 @@ h1{
     transform: translateY(-2px) rotate(-45deg);
 }
 
-@media (max-width:600px){
+@media (max-width:791px){
     h1{
         font-size: 30px;
         position: absolute;
