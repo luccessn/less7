@@ -116,7 +116,7 @@ h1{
     transform: translateY(-2px) rotate(-45deg);
 }
 
-@media (max-width:791px){
+@media (max-width:1300px){
     h1{
         font-size: 30px;
         position: absolute;
